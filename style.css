@@ -102,7 +102,26 @@ header .menu {
     position: relative;
 }
 
-#quem-somos {
+#quem-somos p {
     margin-bottom: 10px;
     width: 90%;
+}
+
+#quem-somos img{
+    min-width: 420px;
+}
+
+.container-externo {
+    background-color: #122A57;
+    width: 100%;
+}
+
+#servicos {
+    flex-direction: column;
+}
+
+.list-servicos {
+    display: flex;
+    justify-content: space-around;
+
 }
