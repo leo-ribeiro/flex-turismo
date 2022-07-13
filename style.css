@@ -118,10 +118,35 @@ header .menu {
 
 #servicos {
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#servicos h2 {
+    color: #FFF;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .list-servicos {
     display: flex;
     justify-content: space-around;
+}
 
+.list-servicos .item-servico {
+    text-align: center;
+}
+
+.item-servico a{
+    width: 220px;
+    background-color: #FFF;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    padding: 5px 10px;
+    color: #122A57;
+    font-size: 14px;
+    text-decoration: none;
 }
