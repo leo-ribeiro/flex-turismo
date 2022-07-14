@@ -1,5 +1,5 @@
-# flex-turismo
+# Flex Turismo
 
-* Projeto criado para colocar em prática o Flexbox
+## Projeto criado para treinar o Flexbox e simula uma Landing Page de uma agência de turismo fictícia (Flex Turismo).
 
-Em construção...
+* HTML | CSS
