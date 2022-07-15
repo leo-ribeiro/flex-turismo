@@ -51,20 +51,32 @@ header .menu {
     justify-content: space-between;
 }
 
-.apresentacao {
-    height: 100vh;
-    align-items: center;
-    justify-content: space-between;
+.flex-container .apresentacao {
+    text-align: center;
 }
 
-.apresentacao .texto-apresentacao {
-    min-height: 200px;
+.apresentacao {
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.img-apresentacao {
+    height: 100vh;
+}
+
+.apresentacao img {
+    height: 100vh;
 }
 
 .texto-apresentacao h1 {
     color: #122A57;
     font-size: 48px;
     margin-bottom: 10px;
+    text-align: ;
 }
 
 .btn {
@@ -251,6 +263,8 @@ footer .footer{
 @media(max-width: 992px){
     .flex-container{
         flex-direction: column;
+        /* padding-left: 2vw; */
+        padding-left: 3vw;
     }
 
     .apresentacao {
@@ -259,10 +273,17 @@ footer .footer{
 
     .apresentacao .texto-apresentacao {
         width: 100%;
+        margin: auto;
+        flex-direction: column-reverse;
+    }
+
+    .img-apresentacao {
+        height: 30vh;
     }
 
     #quem-somos {
         flex-direction: column-reverse;
+        margin: auto;
     }
 
     #quem-somos img {
