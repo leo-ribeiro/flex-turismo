@@ -41,6 +41,7 @@ header .list-items {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    font-size: 18px;
 }
 
 .list-items li a {
